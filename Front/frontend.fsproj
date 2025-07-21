@@ -7,7 +7,7 @@
   <ItemGroup>
     <None Include="script.js" />
     <Content Include="style.css" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <None Include="Brochure_Formation_PowerBI_SQL.pdf" />
     <None Include="Documents\Brochure_Formation_PowerBI_SQL.pdf" />
     <Content Include="Ressources\Ico_formationPBI_Sql.png" />
