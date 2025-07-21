@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formation Power BI & SQL</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="../Ressources/Ico_formationPBI_Sql.png" alt="Icône formation" class="icon" />
+                <h1>Formation Power BI & SQL</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Description Section -->
+    <section class="description">
+        <div class="container">
+            <h2>Développez vos compétences en Data avec Power BI et SQL</h2>
+            <p>Une formation complète, moderne, orientée métier pour maîtriser les fondamentaux de l’analyse de données.</p>
+            <ul>
+                <li>💡 Formation 100% en autoformation (15h)</li>
+                <li>📘 PDF, vidéos, quiz et projet final</li>
+                <li>🎯 Public : analystes, développeurs, gestionnaires, etc.</li>
+                <li>🔒 Sans engagement, accès illimité</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Formulaire -->
+    <section class="form-section">
+        <div class="container">
+        <h3>Formulaire de contact</h3>
+        <form id="formulaire-formation" class="formulaire">
+            <input required type="text" name="nom" placeholder="Nom" maxlength="100" />
+            <input required type="text" name="prenom" placeholder="Prénom" maxlength="100" />
+            <input required type="email" name="email" placeholder="Adresse e-mail" maxlength="150" />
+            <input type="tel" name="telephone" placeholder="Numéro de téléphone (ex. 0612345678)" pattern="^(\+?\d{1,3})?0?\d{9}$" maxlength="15" />
+            <input type="text" name="entreprise" placeholder="Entreprise" maxlength="150" />
+            <input type="text" name="poste" placeholder="Poste" maxlength="100" />
+            <input type="text" name="connaissance" placeholder="Comment avez-vous connu la formation ?" maxlength="200" />
+
+            <div class="btn-group">
+                <button type="submit" name="action" value="info" onclick="envoyerForm('info')" class="btn btn-black">📩 Demander des informations</button>
+                <!--<button type="submit" name="action" value="brochure" onclick="envoyerForm('brochure')" class="btn btn-white">📄 Télécharger la brochure</button>-->
+                <a href="Brochure_Formation_PowerBI_SQL.pdf" target="_blank" download>
+    📄 Télécharger la brochure Power BI (PDF)
+            </a>
+                <!--</button>-->
+                <button type="submit" name="action" value="souscription" onclick="envoyerForm('souscription')" class="btn btn-yellow">💳 Souscrire à la formation</button>
+            </div>
+        </form>
+    </div>
+
+     <!--<iframe class="airtable-embed" src="https://airtable.com/embed/app2ZhKO1DioJn3Wf/pagsIdhWwfHoUZk0A/form" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>-->
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © 2025 P-Consulting – Tous droits réservés.
+    </footer>
+</body>
+</html>
+
