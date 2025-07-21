@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="content\" />
+    <Folder Include="frontend\" />
     <Folder Include="Documents\Share\" />
   </ItemGroup>
 

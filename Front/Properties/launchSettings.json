@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Front": {
+    "frontend": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
