@@ -7,15 +7,15 @@ const Api_Link = "http://localhost:7178/api/subscription";
 const g = 'f1f9d066-7224-4d43-b68d-5b8f230bc33d'
 
 
-//document.getElementById("formulaire-formation").addEventListener("submit", async function (e) {
-//    e.preventDefault();
+document.getElementById("formulaire-formation").addEventListener("submit", async function (e) {
+    e.preventDefault();
 
-//    const form = e.target;
-//    if (!form.checkValidity()) {
-//        form.reportValidity();
-//        return;
-//    }
-//});
+    const form = e.target;
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+});
 
 window.envoyerForm = async function (actionType) {
     const form = document.getElementById('formulaire-formation');
