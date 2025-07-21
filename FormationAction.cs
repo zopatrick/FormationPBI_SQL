@@ -16,6 +16,7 @@ using Google.Protobuf.WellKnownTypes;
 using Microsoft.VisualBasic;
 using System.Reflection.Metadata.Ecma335;
 using Formations.Models;
+using Stripe;
 
 public class FormationActions
 {
@@ -104,25 +105,24 @@ public class FormationActions
     private static async Task<IActionResult> DownloadBrochure()
     {
         var filePath = Path.Combine(Path.Combine(Environment.CurrentDirectory, "//Documents", "Brochure_Formation_PowerBI_SQL.pdf"));
-        if (!File.Exists(filePath))
+        if (!System.IO.File.Exists(filePath))
             return new NotFoundResult();
 
-        var fileBytes = await File.ReadAllBytesAsync(filePath);
+        var fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
         return new FileContentResult(fileBytes, "application/pdf")
         {
             FileDownloadName = "Formation_PowerBI_SQL.pdf"
         };
-
     }
     private static async Task<IActionResult> CreateContact(string? email, string? nom, string? prenom, string? telephone, string? entreprise, string? poste, string? connaissance, ILogger log)
     {
         log.LogInformation("Création du contact dans Airtable");
         // Récupération des variables d'environnement
         string? airtableToken = Environment.GetEnvironmentVariable("AIRTABLE_BEARER");
-        string? airtableBaseId = Environment.GetEnvironmentVariable("AIRTABLE_BASE_ID"); 
+        string? airtableBaseId = Environment.GetEnvironmentVariable("AIRTABLE_BASE_ID");
         string? airtableTableId = Environment.GetEnvironmentVariable("AIRTABLE_TABLE");
 
-        if (string.IsNullOrEmpty(airtableToken)  || string.IsNullOrEmpty(airtableTableId))
+        if (string.IsNullOrEmpty(airtableToken) || string.IsNullOrEmpty(airtableTableId))
         {
             return new BadRequestObjectResult("Configuration Airtable incomplète.");
         }
@@ -140,11 +140,15 @@ public class FormationActions
                     { "Prénom", prenom != null ? prenom.ToString() : string.Empty },
                     { "Adresse e-mail", email != null ? email.ToString() : string.Empty },
                     { "Numéro de téléphone", telephone != null ? telephone.ToString() : string.Empty },
-                    { "Entreprise", nom != null ? nom.ToString() : string.Empty },
-                    { "Poste", poste != null ? poste.ToString() : string.Empty },
-                    { "Source", connaissance != null ? connaissance.ToString() : string.Empty }
                 }
         };
+
+        if (entreprise != null && entreprise != string.Empty)
+            airtablePayload.fields.Add("Entreprise", entreprise.ToString());
+        if (poste != null && poste != string.Empty)
+            airtablePayload.fields.Add("Poste", poste.ToString());
+        if (connaissance != null && connaissance != string.Empty)
+            airtablePayload.fields.Add("Source", connaissance.ToString());
 
         var airtableContent = new StringContent(
             JsonConvert.SerializeObject(airtablePayload),

@@ -27,7 +27,7 @@ window.envoyerForm = async function (actionType) {
     const contact = {
         nom: formData.get("nom"),
         prenom: formData.get("prenom"),
-        email: formData.get("email"),
+        email: formData.get("adressemail"),
         telephone: formData.get("telephone"),
         entreprise: formData.get("entreprise"),
         poste: formData.get("poste"),

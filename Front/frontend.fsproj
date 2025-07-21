@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Ico_formationPBI_Sql.png" />
     <None Include="script.js" />
     <Content Include="style.css" />
     <Content Include="index.html" />
