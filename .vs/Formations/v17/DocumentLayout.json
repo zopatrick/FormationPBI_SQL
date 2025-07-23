@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\frontend.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\frontend.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\frontend.fsproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\frontend.fsproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|c:\\users\\patrick.ramontalambo\\source\\repos\\formations\\front\\ico_formationpbi_sql.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{A8D2EB8C-F553-44BA-841B-B495FE9C37DC}|Front\\frontend.fsproj|solutionrelative:front\\ico_formationpbi_sql.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
@@ -38,84 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\index.html",
-              "RelativeDocumentMoniker": "Front\\index.html",
-              "ToolTip": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\index.html",
-              "RelativeToolTip": "Front\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-07-17T12:22:47.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frontend",
-              "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\frontend.fsproj",
-              "RelativeDocumentMoniker": "Front\\frontend.fsproj",
-              "ToolTip": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\frontend.fsproj",
-              "RelativeToolTip": "Front\\frontend.fsproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
-              "WhenOpened": "2025-07-21T10:52:43.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\style.css",
-              "RelativeDocumentMoniker": "Front\\style.css",
-              "ToolTip": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\style.css",
-              "RelativeToolTip": "Front\\style.css",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAI4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-20T10:56:24.672Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frontend.fsproj",
-              "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\frontend.fsproj",
-              "RelativeDocumentMoniker": "Front\\frontend.fsproj",
-              "ToolTip": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\frontend.fsproj",
-              "RelativeToolTip": "Front\\frontend.fsproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
-              "WhenOpened": "2025-07-21T15:27:02.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Front\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Front\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-20T17:46:13.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "script.js",
-              "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\script.js",
-              "RelativeDocumentMoniker": "Front\\script.js",
-              "ToolTip": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\script.js",
-              "RelativeToolTip": "Front\\script.js",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-17T12:23:40.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Ico_formationPBI_Sql.png - PNG [1024x1024, 32\u00A0bits, PNG]",
               "DocumentMoniker": "C:\\Users\\patrick.ramontalambo\\source\\repos\\Formations\\Front\\Ico_formationPBI_Sql.png",
               "RelativeDocumentMoniker": "Front\\Ico_formationPBI_Sql.png",
