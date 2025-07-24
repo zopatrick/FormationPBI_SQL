@@ -8,6 +8,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "Services\api.csproj", "{8284E756-C0CB-4398-A4C8-7DB9541BF8A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{282A9E9E-08CA-4CBE-AFB9-835592070570}"
+	ProjectSection(SolutionItems) = preProject
+		Front\Ico_formationPBI_Sql.png = Front\Ico_formationPBI_Sql.png
+		Front\index.html = Front\index.html
+		Front\script.js = Front\script.js
+		Front\style.css = Front\style.css
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Front", "Front\Front.csproj", "{3E2CF6FB-CFB5-4A67-BAC9-D29B896A6884}"
 EndProject
