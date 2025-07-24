@@ -35,7 +35,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
           app_location: "Front"
           output_location: ""
-          api_location: "Api"
+          api_location: "Services"
           app_artifact_location: "" 
 
   close_pull_request_job:
