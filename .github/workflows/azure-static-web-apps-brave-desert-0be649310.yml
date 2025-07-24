@@ -33,7 +33,6 @@ jobs:
           # output_location: "" # Built app content directory - optional
           # app_artifact_location: "Build"  # 
           ###### End of Repository/Build Configurations ######
-          app_location: "Front"
           output_location: ""
           api_location: "Services"
           app_artifact_location: "" 
