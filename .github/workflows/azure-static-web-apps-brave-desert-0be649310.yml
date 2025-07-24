@@ -34,8 +34,8 @@ jobs:
           # app_artifact_location: "Build"  # 
           ###### End of Repository/Build Configurations ######
           app_location: "Front"
-          api_location: "Api"
-          app_artifact_location: "Front/dist"
+          # api_location: "Api"
+          # app_artifact_location: "Front/dist"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
